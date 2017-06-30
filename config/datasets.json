@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Select Dataset",
+    "url": ""
+  },
+  {
+    "name": "first",
+    "url": "./data/first/_0/data.json"
+  },
+  {
+    "name": "second",
+    "url": "./data/second/0/data.json"
+  }
+]

@@ -1,0 +1,59 @@
+body{
+    padding-bottom:100px;
+    background-color: #f5f8fa;
+    overflow-x: hidden;
+}
+
+.starter-template {
+    text-align: center;
+}
+#canvas {
+    border: 1px solid black;
+}
+#keyboard_ref table, #setup_parameters table{
+    display: inline-block;
+}
+table td{
+    padding-left:5px;
+}
+#download, #upload {
+    min-width: 300px;
+}
+.alert{
+    text-align: center;
+}
+#select_time_annotation_type, #select_time_annotation_label, #time_annotations_in_progress{
+    text-align: center;
+}
+.centered{
+    float: none;
+    display: inline-block;
+}
+#select_folder{
+    max-width: 300px;
+}
+
+
+#awesome{
+    margin:auto ;
+}
+
+
+/**
+    checkbox
+ */
+.btn span.glyphicon {
+    opacity: 0;
+}
+.btn.active span.glyphicon {
+    opacity: 1;
+}
+.vertical_align{
+    height: 100px;
+    width: 150px;
+    display: inline-flex;
+    align-items: center;
+}
+.checkbox_custom{
+    padding-left: 10px;
+}

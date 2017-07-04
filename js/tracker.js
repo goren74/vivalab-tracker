@@ -287,7 +287,7 @@ function loadCustomersDatas(){
         for(var i = 0; i < nb_customers; i++) {
             var name = i<10 ? "0"+i : i;
             try {
-                $.getJSON('http://localhost/stage/tracker/data/' + path_customers_folder + '/simulator/customers/customer_000' + name + '.json', function (data) {
+                $.getJSON('./data/' + path_customers_folder + '/simulator/customers/customer_000' + name + '.json', function (data) {
                     customer = new Customer();
                     customer.name = data.name;
                     customer.size = data.size[0];

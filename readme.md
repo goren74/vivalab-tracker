@@ -4,11 +4,12 @@
 1) Create a folder "data" at the root of the project. Put in a new folder your data containing : 
     1) Image datasets 
     2) Customers info  
-So it have to be like this :  
-    * data/
-        * your_folder_datasets
-            * frames_folder
-            * customers_folder
+  
+  So it have to be like this :  
+  * data/
+    * your_folder_datasets
+        * frames_folder
+        * customers_folder
         
 2) Execute : `python folder2json data/your_folder_datasets/frames_folder`
 This will create a "data.json" 
